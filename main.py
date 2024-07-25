@@ -108,4 +108,4 @@ async def help_editbot(ctx):
 
 
 
-bot.run('token')  # Replace with your bot token
+bot.run(os.getenv('DISCORD_TOKEN'))
