@@ -107,4 +107,4 @@ async def help_editbot(ctx):
 
 
 
-bot.run('MTI2NTg0NzUzMzkxMDA5Nzk1MA.GAMaf_.Q2oE_H1YEaWmGdKx_VIbkRMHvlHKhn2ArFOAh4')  # Replace with your bot token
+bot.run('token')  # Replace with your bot token
