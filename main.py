@@ -13,9 +13,10 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.event
 async def on_ready():
-    await bot.tree.sync()  # Ensure commands are synced
-    print(f'Logged in as {bot.user.name} ({bot.user.id})')
-    print('------')
+    # Set the custom status when the bot is ready
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="new names 👑 | broke"))
+    print(f'Logged in as {bot.user.name}')
+
 
 @bot.event
 async def on_guild_join(guild: discord.Guild):
