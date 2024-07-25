@@ -15,3 +15,6 @@ Commands for Editing Channels:
 Note:
   - You can only edit a channel's name up to 2 times within a 6-10 minute period.
     discord limit
+
+
+bot link : https://discord.com/oauth2/authorize?client_id=1265847533910097950&permissions=2064&integration_type=0&scope=bot
