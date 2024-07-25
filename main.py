@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-
+import os  
 
 # Discord bot setup
 intents = discord.Intents.all()
